@@ -115,7 +115,7 @@ publications:
       - title: "Restoring Weight and Brain Function: Intrinsic Neural Activity and Connectivity Alterations as State Markers of Adolescent Anorexia Nervosa"
         link: "https://www.biologicalpsychiatrycnni.org/article/S2451-9022(24)00058-2/abstract"
         authors: LA Berner, BRK Shevlin
-        journal: "Biolgogical Psychiatry: Cognitive Neuroscience and Neuroimaging"
+        conference: "Biolgogical Psychiatry: Cognitive Neuroscience and Neuroimaging"
       
       - title: "High-value decisions are fast and accurate, inconsistent with diminishing value sensitivity"
         link: "assets/shevlin-et-al-2022-high-value-decisions-are-fast-and-accurate-inconsistent-with-diminishing-value-sensitivity.pdf"
@@ -125,12 +125,12 @@ publications:
       - title: "Attention as a source of variability in decision-making: Accounting for overall-value effects with diffusion models"
         link: "assets/shevlin-krajbich-2021-attention-as-a-source-of-variability.pdf"
         authors: BRK Shevlin, I Krajbich
-        journal: "Journal of Mathematical Psychology"
+        conference: "Journal of Mathematical Psychology"
 
       - title: "Past behavior and the decision to text while driving among young adults"
         link: "https://www.sciencedirect.com/science/article/pii/S1369847817305430"
         authors: BRK Shevlin, KA Goodwin
-        journal: "Transportation Research Part F: Traffic Psychology and Behaviour"
+        conference: "Transportation Research Part F: Traffic Psychology and Behaviour"
 
 skills: 
     title: Programming Languages
