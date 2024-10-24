@@ -31,7 +31,7 @@ sidebar:
     mastodon:  # Please include your full Mastodon link here.
     hackerrank: # Please provide your HackerRank username.
     leetcode: # Please provide your LeetCode username.
-    pdf: "assets/shevlin_cv_sept2024.pdf" # Add a PDF link here if you want to include a PDF custom version in your resume.
+    pdf: "assets/Oct2024_Shevlin_CV.pdf" # Add a PDF link here if you want to include a PDF custom version in your resume.
 
     languages:
       title: Languages
@@ -107,20 +107,25 @@ experiences:
 publications:
     title: Representative Publications
     papers:
-      - title: "High-value decisions are fast and accurate, inconsistent with diminishing value sensitivity"
-        link: "https://www.pnas.org/doi/abs/10.1073/pnas.2101508119"
-        authors: BRK Shevlin, SM Smith, J Hausfeld, I Krajbich
-        conference: "Proceedings of the National Academy of Sciences"
-
-      - title: "Attention as a source of variability in decision-making: Accounting for overall-value effects with diffusion models"
-        link: "https://www.sciencedirect.com/science/article/pii/S0022249621000705"
-        authors: BRK Shevlin, I Krajbich
-        journal: "Journal of Mathematical Psychology"
+      - title: "Computations underlying food choice among individuals with bulimia nervosa"
+        link: "https://osf.io/preprints/osf/m85ed"
+        authors: BRK Shevlin, L Gianini, J Steinglass, K Foerde, EC Lloyd, KE Hagan, LA Berner
+        conference: "Preprint"
 
       - title: "Restoring Weight and Brain Function: Intrinsic Neural Activity and Connectivity Alterations as State Markers of Adolescent Anorexia Nervosa"
         link: "https://www.biologicalpsychiatrycnni.org/article/S2451-9022(24)00058-2/abstract"
         authors: LA Berner, BRK Shevlin
         journal: "Biolgogical Psychiatry: Cognitive Neuroscience and Neuroimaging"
+      
+      - title: "High-value decisions are fast and accurate, inconsistent with diminishing value sensitivity"
+        link: "assets/shevlin-et-al-2022-high-value-decisions-are-fast-and-accurate-inconsistent-with-diminishing-value-sensitivity.pdf"
+        authors: BRK Shevlin, SM Smith, J Hausfeld, I Krajbich
+        conference: "Proceedings of the National Academy of Sciences"
+
+      - title: "Attention as a source of variability in decision-making: Accounting for overall-value effects with diffusion models"
+        link: "assets/shevlin-krajbich-2021-attention-as-a-source-of-variability.pdf"
+        authors: BRK Shevlin, I Krajbich
+        journal: "Journal of Mathematical Psychology"
 
       - title: "Past behavior and the decision to text while driving among young adults"
         link: "https://www.sciencedirect.com/science/article/pii/S1369847817305430"
