@@ -107,6 +107,11 @@ experiences:
 publications:
     title: Representative Publications
     papers:
+      - title: "Overt visual attention modulates decision-related signals in ventral and dorsal medial prefrontal cortex"
+        link: "https://www.biorxiv.org/content/10.1101/2024.10.25.620227v1"
+        authors: BRK Shevlin, RE Gwinn, A Makwana, I Krajbich
+        conference: "Preprint (Accepted at eLife)"
+
       - title: "Computations underlying food choice among individuals with bulimia nervosa"
         link: "https://osf.io/preprints/osf/m85ed"
         authors: BRK Shevlin, L Gianini, J Steinglass, K Foerde, EC Lloyd, KE Hagan, LA Berner
