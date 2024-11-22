@@ -31,7 +31,7 @@ sidebar:
     mastodon:  # Please include your full Mastodon link here.
     hackerrank: # Please provide your HackerRank username.
     leetcode: # Please provide your LeetCode username.
-    pdf: "assets/Oct2024_Shevlin_CV.pdf" # Add a PDF link here if you want to include a PDF custom version in your resume.
+    pdf: "assets/Shevlin_CV.pdf" # Add a PDF link here if you want to include a PDF custom version in your resume.
 
     languages:
       title: Languages
@@ -115,7 +115,7 @@ publications:
       - title: "Computations underlying food choice among individuals with bulimia nervosa"
         link: "https://osf.io/preprints/osf/m85ed"
         authors: BRK Shevlin, L Gianini, J Steinglass, K Foerde, EC Lloyd, KE Hagan, LA Berner
-        conference: "Preprint"
+        conference: "Preprint (Accepted at eLife)"
 
       - title: "Restoring Weight and Brain Function: Intrinsic Neural Activity and Connectivity Alterations as State Markers of Adolescent Anorexia Nervosa"
         link: "assets/berner-shevlin-2024-restoring-weight-and-brain-function.pdf"
