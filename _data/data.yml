@@ -69,11 +69,11 @@ education:
       - degree: PhD in Decision Psychology
         university: The Ohio State University
         time: 2017 - 2022
-        details: |
+        details: Dissertation: "Essays on the role of value in decision-making"
       - degree: MA in Experimental Psychology
         university: Towson University
         time: 2015 - 2017
-        details: |
+        details: Thesis: “Cognitive abilities associated with changing risk perceptions of distracted driving” 
       - degree: "BA in Psychology (Minors: Philosophy, Cognitive Science)"
         university: Goucher College
         time: 2009 - 2013
@@ -86,7 +86,14 @@ experiences:
       - role: Postdoctoral Fellow
         time: 2022 - Present
         company: Center for Computational Psychiatry, Icahn School of Medicine at Mount Sinai
-        details: |
+        details: • Independently manage dual research programs across two labs 
+                 • Supervise graduate students and research assistants in experimental design, data collection, and analysis 
+                 • Develop computational models predicting clinical outcomes from neurobiological measurements (findings under review at Nature) 
+                 • Collaborate with neurosurgeons, psychiatrists, and neurologists to integrate complex data pipelines
+
+      - role: Graduate Assistant
+        time: 2017 - 2022
+        company: Neuroeconomics Lab, The Ohio State University
 
       - role: Graduate Assistant
         time: 2015 - 2017
@@ -103,6 +110,10 @@ experiences:
       - role: AmeriCorps VISTA
         time: 2013 - 2014
         company: Habitat for Humanity of the Chesapeake
+
+      - role: Research Assistant
+        time: 2012 - 2013
+        company: Behavioral Pharmacology Research Unit, Johns Hopkins Hospital
 
 publications:
     title: Representative Publications
