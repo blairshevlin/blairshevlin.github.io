@@ -48,27 +48,51 @@
         .publication-title {
             font-weight: 500;
         }
+
+        /* Headshot styling - float right */
+        .intro-section img {
+            float: right;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        /* Responsive design for mobile */
+        @media (max-width: 600px) {
+            .intro-section img {
+                float: none;
+                display: block;
+                margin: 0 auto 20px;
+            }
+        }
     </style>
 </head>
 <body>
     <h1>Blair Shevlin</h1>
     
-    <p>
-        I am a translational decision neuroscience researcher. I am currently a Postdoctoral Fellow in two labs.
-        My primary appointment is at the Center for Computational Psychiatry at the Icahn School of Medicine at Mount 
-        Sinai with (<a href="https://labs.icahn.mssm.edu/bernerlab/">Laura Berner</a>). I am also affiliated with the
-        Computational Psychiatry Unit at Yale Medicine with (<a href="https://www.neurocpu.org/">Xiaosi Gu</a>).
-        I completed my Ph.D. in Decision Psychology while working in the Neuroeconomics Laboratory at The Ohio State
-        University with <a href="https://krajbichlab.psych.ucla.edu/people">Ian Krajbich</a>.
-    </p>
-    
-    <p>
-        My research tries to answer the question: "How do people decide what to value?" I approach this question by studying both how people learn about value (e.g., "Which product should I buy?") and how they approach situations in which those values may vary (e.g., "How should I approach my choices at a fancy supermarket versus a dollar store?"). I'm interested in answering this question in the context of consumer goods and social interactions, as well as how these valuations go awry in mental illness. My primary tools are computational modeling and functional magnetic resonance imaging.
-    </p>
-    
-    <p>
-        <a href="assets/Shevlin_CV.pdf">CV</a> / <a href="https://scholar.google.com/your-profile">Google Scholar</a> / Email: blair.shevlin [at] mssm [dot] edu
-    </p>
+    <div class="intro-section">
+        <img src="assets/images/headshot.png" alt="Blair Shevlin">
+        
+        <p>
+            I am a translational decision neuroscience researcher. I am currently a Postdoctoral Fellow in two labs.
+            My primary appointment is at the Center for Computational Psychiatry at the Icahn School of Medicine at Mount 
+            Sinai with (<a href="https://labs.icahn.mssm.edu/bernerlab/">Laura Berner</a>). I am also affiliated with the
+            Computational Psychiatry Unit at Yale Medicine with (<a href="https://www.neurocpu.org/">Xiaosi Gu</a>).
+            I completed my Ph.D. in Decision Psychology while working in the Neuroeconomics Laboratory at The Ohio State
+            University with <a href="https://krajbichlab.psych.ucla.edu/people">Ian Krajbich</a>.
+        </p>
+        
+        <p>
+            My research tries to answer the question: "How do people decide what to value?" I approach this question by studying both how people learn about value (e.g., "Which product should I buy?") and how they approach situations in which those values may vary (e.g., "How should I approach my choices at a fancy supermarket versus a dollar store?"). I'm interested in answering this question in the context of consumer goods and social interactions, as well as how these valuations go awry in mental illness. My primary tools are computational modeling and functional magnetic resonance imaging.
+        </p>
+        
+        <p>
+            <a href="assets/Shevlin_CV.pdf">CV</a> / <a href="https://scholar.google.com/your-profile">Google Scholar</a> / Email: blair.shevlin [at] mssm [dot] edu
+        </p>
+    </div>
     
     <h2>Manuscripts</h2>
 
@@ -80,32 +104,32 @@
     <h2>Publications</h2>
 
     <div class="publication">
-        <a href="assets\Shevlin et al 2025 Over attention fMRI eLife.pdf" class="publication-title">Overt visual attention modulates decision-related signals in ventral and dorsal medial prefrontal cortex</a><br>
+        <a href="assets/Shevlin et al 2025 Over attention fMRI eLife.pdf" class="publication-title">Overt visual attention modulates decision-related signals in ventral and dorsal medial prefrontal cortex</a><br>
         eLife (2025)
     </div>
     
     <div class="publication">
-        <a href="assets\Shevlin et al. 2025 Food computations BN eLife.pdf" class="publication-title">Computations underlying food choice among individuals with bulimia nervosa</a><br>
+        <a href="assets/Shevlin et al. 2025 Food computations BN eLife.pdf" class="publication-title">Computations underlying food choice among individuals with bulimia nervosa</a><br>
         eLife (2025)
     </div>
     
     <div class="publication">
-        <a href="assets\berner-shevlin-2024-restoring-weight-and-brain-function.pdf" class="publication-title">Restoring Weight and Brain Function: Intrinsic Neural Activity and Connectivity Alterations as State Markers of Adolescent Anorexia Nervosa</a><br>
+        <a href="assets/berner-shevlin-2024-restoring-weight-and-brain-function.pdf" class="publication-title">Restoring Weight and Brain Function: Intrinsic Neural Activity and Connectivity Alterations as State Markers of Adolescent Anorexia Nervosa</a><br>
         Biological Psychiatry: Cognitive Neuroscience and Neuroimaging (2024)
     </div>
     
     <div class="publication">
-        <a href="assets\shevlin-et-al-2022-high-value-decisions-are-fast-and-accurate-inconsistent-with-diminishing-value-sensitivity.pdf" class="publication-title">High-value decisions are fast and accurate, inconsistent with diminishing value sensitivity</a><br>
+        <a href="assets/shevlin-et-al-2022-high-value-decisions-are-fast-and-accurate-inconsistent-with-diminishing-value-sensitivity.pdf" class="publication-title">High-value decisions are fast and accurate, inconsistent with diminishing value sensitivity</a><br>
         Proceedings of the National Academy of Sciences (2022)
     </div>
     
     <div class="publication">
-        <a href="assets\shevlin-krajbich-2021-attention-as-a-source-of-variability.pdf" class="publication-title">Attention as a source of variability in decision-making: Accounting for overall-value effects with diffusion models</a><br>
+        <a href="assets/shevlin-krajbich-2021-attention-as-a-source-of-variability.pdf" class="publication-title">Attention as a source of variability in decision-making: Accounting for overall-value effects with diffusion models</a><br>
         Journal of Mathematical Psychology (2021)
     </div>
     
     <div class="publication">
-        <a href="assets\shevlin-goodwin-2019-past-behavior-text.pdf" class="publication-title">Past behavior and the decision to text while driving among young adults</a><br>
+        <a href="assets/shevlin-goodwin-2019-past-behavior-text.pdf" class="publication-title">Past behavior and the decision to text while driving among young adults</a><br>
         Transportation Research Part F (2019)
     </div>
 </body>
