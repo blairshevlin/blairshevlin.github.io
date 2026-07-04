@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — Blair Shevlin</title>
+<style>
+  :root{ --accent:#0066cc; --ink:#333; --muted:#666; --rule:#e6e6e6; }
+  body{ font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+        line-height:1.6; max-width:1000px; margin:0 auto; padding:0 40px 60px; color:var(--ink); font-size:16px; }
+  a{ color:var(--accent); text-decoration:none; } a:hover{ text-decoration:underline; }
+  nav.site{ display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap;
+            gap:12px; padding:22px 0 16px; border-bottom:1px solid var(--rule); margin-bottom:36px; }
+  nav.site .brand{ font-family:Georgia,"Times New Roman",serif; font-size:20px; letter-spacing:2px; text-transform:uppercase; color:var(--ink); }
+  nav.site .links{ display:flex; gap:22px; flex-wrap:wrap; }
+  nav.site .links a{ text-transform:uppercase; letter-spacing:1px; font-size:13px; color:var(--muted); padding-bottom:3px; border-bottom:2px solid transparent; }
+  nav.site .links a:hover{ color:var(--ink); text-decoration:none; }
+  nav.site .links a.active{ color:var(--ink); border-bottom-color:var(--accent); }
+  h1{ font-size:32px; font-weight:400; letter-spacing:2px; text-transform:uppercase; font-family:Georgia,"Times New Roman",serif; margin:10px 0 24px; }
+  h2{ font-size:18px; font-weight:600; margin-top:38px; margin-bottom:12px; padding-bottom:6px; border-bottom:1px solid var(--rule); }
+  p{ margin-bottom:15px; }
+  .theme{ margin-bottom:6px; }
+  .theme .num{ color:var(--accent); font-variant-numeric:tabular-nums; }
+  .keypaper{ color:var(--muted); font-size:14px; margin-top:-4px; }
+  .footer{ margin-top:50px; padding-top:16px; border-top:1px solid var(--rule); color:var(--muted); font-size:13px; }
+  @media (max-width:600px){ body{ padding:0 20px 40px; } nav.site{ flex-direction:column; align-items:flex-start; } }
+</style>
+</head>
+<body>
+<nav class="site">
+  <a class="brand" href="index.html">Blair Shevlin</a>
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="research.html" class="active">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="teaching.html">Teaching</a>
+  </div>
+</nav>
+
+<h1>Research</h1>
+
+<p>
+  Understanding how humans make maladaptive choices requires identifying disruptions in the neural circuits and
+  cognitive computations that guide adaptive decision-making. My research program develops and tests computational
+  theories of decision-making by combining cognitive modeling with multimodal neuroimaging — from functional MRI to
+  direct neurochemical recordings in humans — linking behavior to neural representations and circuit-level dynamics.
+  My research spans four connected themes.
+</p>
+
+<h2><span class="theme"><span class="num">1.</span> Reward discriminability, attention &amp; value representation</span></h2>
+<p>
+  Leading theories predict that decisions between higher-value rewards should be noisier and more error-prone. Using
+  diffusion decision models and a paradigm built on objective reward magnitudes, I found the opposite: higher value makes
+  options <em>more</em> distinguishable, a robust property across snack foods, abstract art, and learned stimuli.
+  Follow-up modeling showed that <em>attention</em>, not perceptual noise, drives this enhancement. A novel
+  fMRI + eye-tracking paradigm then dissociated brain regions that encode currently sampled evidence (vmPFC, ventral
+  striatum) from those that integrate it over time (pre-SMA), providing direct neural evidence for how
+  attention-weighted value signals are transformed into committed choices.
+</p>
+<p class="keypaper">Key work:
+  <a href="assets/shevlin-et-al-2022-high-value-decisions-are-fast-and-accurate-inconsistent-with-diminishing-value-sensitivity.pdf">Shevlin et al. (2022, <em>PNAS</em>)</a> ·
+  <a href="assets/shevlin-krajbich-2021-attention-as-a-source-of-variability.pdf">Shevlin &amp; Krajbich (2021, <em>J. Math. Psych.</em>)</a> ·
+  <a href="assets/Shevlin et al 2025 Over attention fMRI eLife.pdf">Shevlin et al. (2025, <em>eLife</em>)</a>.</p>
+
+<h2><span class="theme"><span class="num">2.</span> Neurochemistry of reward &amp; task context</span></h2>
+<p>
+  Connecting computational models to the neuromodulatory systems that instantiate them, my postdoctoral work uses
+  machine-learning-enhanced fast-scan cyclic voltammetry to measure dopamine and serotonin at sub-second resolution in
+  patients receiving deep brain stimulation for treatment-resistant depression. Task context shaped these responses —
+  dopamine rose during reversal learning, serotonin during social exchange — and neurochemical responses during the
+  social task uniquely predicted mood improvement and remission at six months. I am extending this framework to
+  Parkinson's disease and, through cross-species collaborations, using a mouse model of autism to bridge genetic and
+  circuit alterations to behavioral computation.
+</p>
+<p class="keypaper">Key work:
+  <a href="https://www.biorxiv.org/content/10.64898/2025.11.28.691184v1">Shevlin, Fu, et al. (under revision, <em>Nature</em>)</a> ·
+  Kato, Shevlin, et al. (in prep) · Jahan, Shevlin, et al. (in prep).</p>
+
+<h2><span class="theme"><span class="num">3.</span> Clinical translation across compulsive disorders</span></h2>
+<p>
+  Compulsive behaviors, from binge eating to substance use, offer a window into disrupted valuation and choice.
+  In bulimia nervosa, I showed that negative affect abnormally delays the onset of health-attribute processing,
+  extending the window in which taste drives choice, with the bias scaling with symptom severity. This motivates my
+  hypothesis that compulsive disorders involve <em>imbalanced reward discriminability</em>: heightened sensitivity to
+  disorder-specific rewards but impaired sens

@@ -3,3 +3,7 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .jekyll-cache
+/.claude
+index_old.html
+index_backup_20260704.html
+Plan.md

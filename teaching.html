@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teaching — Blair Shevlin</title>
+<style>
+  :root{ --accent:#0066cc; --ink:#333; --muted:#666; --rule:#e6e6e6; }
+  body{ font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+        line-height:1.6; max-width:1000px; margin:0 auto; padding:0 40px 60px; color:var(--ink); font-size:16px; }
+  a{ color:var(--accent); text-decoration:none; } a:hover{ text-decoration:underline; }
+  nav.site{ display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap;
+            gap:12px; padding:22px 0 16px; border-bottom:1px solid var(--rule); margin-bottom:36px; }
+  nav.site .brand{ font-family:Georgia,"Times New Roman",serif; font-size:20px; letter-spacing:2px; text-transform:uppercase; color:var(--ink); }
+  nav.site .links{ display:flex; gap:22px; flex-wrap:wrap; }
+  nav.site .links a{ text-transform:uppercase; letter-spacing:1px; font-size:13px; color:var(--muted); padding-bottom:3px; border-bottom:2px solid transparent; }
+  nav.site .links a:hover{ color:var(--ink); text-decoration:none; }
+  nav.site .links a.active{ color:var(--ink); border-bottom-color:var(--accent); }
+  h1{ font-size:32px; font-weight:400; letter-spacing:2px; text-transform:uppercase; font-family:Georgia,"Times New Roman",serif; margin:10px 0 24px; }
+  h2{ font-size:18px; font-weight:600; margin-top:38px; margin-bottom:16px; padding-bottom:6px; border-bottom:1px solid var(--rule); }
+  p{ margin-bottom:15px; }
+  .lead{ color:var(--muted); margin-bottom:28px; }
+  .talk{ margin-bottom:30px; }
+  .talk .t-title{ font-size:16px; font-weight:600; margin-bottom:2px; }
+  .talk .t-venue{ color:var(--muted); font-size:13px; text-transform:uppercase; letter-spacing:.5px; margin-bottom:8px; }
+  .talk .t-desc{ margin:0 0 10px; }
+  .slides{ display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+           text-transform:uppercase; letter-spacing:.5px; padding:6px 12px; border:1px solid var(--accent);
+           border-radius:6px; }
+  .slides:hover{ background:var(--accent); color:#fff; text-decoration:none; }
+  .slides svg{ width:14px; height:14px; fill:currentColor; }
+  .footer{ margin-top:50px; padding-top:16px; border-top:1px solid var(--rule); color:var(--muted); font-size:13px; }
+  @media (max-width:600px){ body{ padding:0 20px 40px; } nav.site{ flex-direction:column; align-items:flex-start; } }
+</style>
+</head>
+<body>
+<nav class="site">
+  <a class="brand" href="index.html">Blair Shevlin</a>
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="research.html">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="teaching.html" class="active">Teaching</a>
+  </div>
+</nav>
+
+<h1>Teaching</h1>
+
+<p class="lead">
+  I teach computational methods to learners at every stage — from high-school students getting their first exposure to
+  programming, to postdocs and faculty at intensive workshops. Slides from some recent workshops are provided below.
+</p>
+
+<div class="talk">
+  <div class="t-title">Using Response Times to Improve Cognitive Models</div>
+  <div class="t-venue">Yale School of Medicine (2025) · Icahn School of Medicine at Mount Sinai (2025)</div>
+  <p class="t-desc">
+    What can response times tell us? This workshop highlights how jointly modeling choices and response times yields
+    more precise parameter estimates and sharper tests between competing hypotheses.
+  </p>
+  <a class="slides" href="assets/talks/RT-Cog-Model.pdf">
+    <svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H6V2zm8 1.5V8h4.5L14 3.5z"/></svg>View slides (PDF)
+  </a>
+</div>
+
+<div class="talk">
+  <div class="t-title">Introduction to the Diffusion Decision Model</div>
+  <div class="t-venue">New York Computational Psychiatry Workshop (2024, 2025)</div>
+  <p class="t-desc">
+    A hands-on introduction to the diffusion decision model and the sequential sampling framework, walking through how
+    these models decompose choices and response times into interpretable cognitive parameters such as evidence
+    accumulation, response caution, and initial biases.
+  </p>
+  <a class="slides" href="assets/talks/Intro-DDM.pdf">
+    <svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H6V2zm8 1.5V8h4.5L14 3.5z"/></svg>View slides (PDF)
+  </a>
+</div>
+
+<div class="talk">
+  <div class="t-title">Collecting Online Data in the Age of Large Language Models</div>
+  <div class="t-venue">Icahn School of Medicine at Mount Sinai (2026) · Yale School of Medicine (2026)</div>
+  <p class="t-desc">
+    Online assessments underpin much of psychology and public health, but LLM-powered bots now pass nearly all standard
+    attention checks. This talk covers the threat synthetic respondents pose to data quality and practical strategies
+    for collecting trustworthy behavioral data online.
+  </p>
+  <a class="slides" href="assets/talks/Online-LLM.pdf">
+    <svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H6V2zm8 1.5V8h4.5L14 3.5z"/></svg>View slides (PDF)
+  </a>
+</div>
+
+<div class="talk">
+  <div
